@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lofimusic/Widgets/CarouselWithIndicator.dart';
+import 'package:lofimusic/Widgets/MusicPlayer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         disabledColor: const Color( 0x61000000 ),
         toggleableActiveColor: const Color( 0xff8512ba ),
         secondaryHeaderColor: const Color( 0xfff6e8fd ),
-        backgroundColor: const Color( 0xffdca2f6 ),
+        backgroundColor: const Color( 0xffffffff ),
         dialogBackgroundColor: const Color( 0xffffffff ),
         indicatorColor: const Color( 0xffa716e9 ),
         hintColor: const Color( 0x8a000000 ),
